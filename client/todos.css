@@ -49,7 +49,7 @@ h3 {
 
 #top-tag-filter {
     left: 200px;
-    height: 44px;
+    height: 244px;
     bottom: auto;
     background: #ddd;
     border-bottom: 1px solid #999;
@@ -60,7 +60,7 @@ h3 {
 }
 
 #main-pane {
-    top: 45px;
+    top: 245px;
     bottom: 0;
     left: 220px;
     overflow: auto;
@@ -120,7 +120,8 @@ h3 {
 }
 
 #lists .list {
-    padding: 3px 6px;
+    padding: 6px 9px;
+    border: 1px solid black;
 }
 
 #lists .selected {
@@ -166,7 +167,7 @@ h3 {
 
 #item-list .todo {
     display: block;
-    height: 50px;
+    height: auto;
     position: relative;
     overflow: hidden;
     border-top: 1px solid #ccc;
@@ -199,6 +200,10 @@ h3 {
 #item-list .done .todo-text {
     text-decoration: line-through;
     color: #999;
+}
+
+.todo-text {
+    width: 800px;
 }
 
 #item-list .todo:hover .destroy {
